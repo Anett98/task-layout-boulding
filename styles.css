@@ -10,8 +10,6 @@ body {
     background-repeat: no-repeat;
     background-color: #F2F2F2;
     background-size: 100% 15%;
-    margin: 0;
-    padding: 0;
 }
 
 .responsive-menu {
@@ -71,12 +69,12 @@ body {
     align-items: center;
     list-style-type: none;
     gap: 32px;
+    margin: 0px 70px;
 }
 
 .menu__item {
     color: white;
     font-size: 16px;
-    gap: 32px;
     cursor: pointer;
     font-weight: 500;
 }
@@ -94,6 +92,8 @@ body {
     border: none;
     border-radius: 60px;
     width: 194px;
+    cursor: pointer;
+    margin: 0px 10px;
 }
 
 .component {
@@ -107,6 +107,7 @@ body {
     font-weight: 500;
     font-size: 48px;
     line-height: 122%;
+    padding: 0px 10px 0px 10px;
 }
 
 .component__subtitle {
@@ -117,6 +118,7 @@ body {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     opacity: 0.5;
+    padding: 0px 10px 0px 10px;
 }
 
 .component__description {
@@ -124,6 +126,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
+    padding: 0px 10px 0px 10px;
 }
 
 .component__title--hero {
@@ -143,7 +146,7 @@ body {
 }
 
 .dashboard-img {
-    padding-top: 106px;
+    padding-top: 30px;
     padding-bottom: 200px;
     max-width: 1210px;
     width: 100%;
@@ -236,7 +239,8 @@ body {
 }
 
 .image-start {
-    max-width: 40%;
+    max-width: 100%;
+    margin: 0px 20px;
 }
 
 .cards__title {
@@ -285,6 +289,7 @@ body {
     color: white;
     max-width: 718px;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .cards__base--large {
@@ -307,7 +312,7 @@ body {
     gap: 40px;
 }
 
-.brands-container {
+.brands {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -315,15 +320,15 @@ body {
     gap: 112px;
     row-gap: 50px;
     max-width: 1200px;
+    padding-top: 32px;
 }
 
-.brands-container>img {
+.brands__logo {
     width: 144px;
     height: 56px;
     display: block;
 
 }
-
 
 .component__title--brands {
     color: #3B3E43;
@@ -338,7 +343,7 @@ body {
 }
 
 .component__description--brands {
-    padding-top: 32px;
+    padding-top: 40px;
     color: #424A4D;
     font-size: 16px;
     max-width: 381px;
@@ -394,6 +399,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* gap: 85px; */
 }
 
 .footer__divider {
@@ -462,7 +468,10 @@ body {
     }
 
     .process-image {
-        margin-left: 35px;
+        width: 90%;
+        margin-left: 30px;
+        margin-right: 30px;
+        align-items: center;
     }
 
     .responsive-menu {
@@ -484,25 +493,56 @@ body {
         display: block;
         opacity: 1;
     }
+}
 
-    @media screen and (max-width: 600px) {
-        .button--header {
-            display: none;
-        }
+@media screen and (max-width: 600px) {
+    .button--header {
+        display: none;
+    }
 
-        .button--burger {
-            display: block;
-            margin-top: 30px;
-            border-radius: 0px;
-            width: 200px;
-        }
+    .component__title--brands {
+        font-size: 38px;
+    }
 
-        .burger-menu {
-            height: 325px;
-        }
+    .button--burger {
+        display: block;
+        border-radius: 0px;
+        width: 200px;
+        margin: 10px 0px;
+        margin-top: 30px;
+    }
 
-        .header {
-            flex-direction: column;
-        }
+    .burger-menu {
+        height: 325px;
+    }
+
+    .component__subtitle--help {
+        margin-top: 50px;
+    }
+
+    .logo__image {
+        max-width: 70px;
+    }
+
+    .logo__txt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    body {
+        background-size: 100% 13%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: 100% 11%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-size: 100% 10%;
     }
 }
