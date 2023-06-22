@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +13,212 @@
     <title>Task</title>
 </head>
 
-<body></body>
+<body>
+    <div class="header">
+        <div class="responsive-menu">
+            <input type="checkbox" id="trigger" />
+            <label for="trigger">
+                <img class="burger-menu-icon" src="./assets/burger-menu.png" />
+            </label>
+            <ul class="burger-menu">
+                <li class="burger-menu__item">Home</li>
+                <li class="burger-menu__item">Your benefits</li>
+                <li class="burger-menu__item">Our process</li>
+                <li class="burger-menu__item">Our works</li>
+                <li class="burger-menu__item">Testimonials</li>
+                <li class="burger-menu__item">Start a project</li>
+                <button class="button button--burger">Get started</button>
+            </ul>
+        </div>
+        <div class="logo">
+            <img class="logo__image" src="./assets//Logo_image.png" />
+            <p class="logo__txt">company</p>
+        </div>
+        <div class="menu">
+            <li class="menu__item">Home</li>
+            <li class="menu__item">Your benefits</li>
+            <li class="menu__item">Our process</li>
+            <li class="menu__item">Our works</li>
+            <li class="menu__item">Testimonials</li>
+            <li class="menu__item">Start a project</li>
+        </div>
+        <button class="button button--header">Get started</button>
+    </div>
+    <div class="component component--hero">
+        <h1 class="component__title component__title--hero">A Digital Product Design Agency</h1>
+        <p class="component__description component__description--hero">We are Creative and Professional Digital Agency
+        </p>
+        <button class="button">Get started</button>
+        <img class="dashboard-img" src="./assets/Dashboard.png" />
+    </div>
+    <div class="component component--help">
+        <div class="component-wrapper">
+            <p class="component__subtitle component__subtitle--help">features</p>
+            <h1 class="component__title component__title--help">We are here to help you with</h1>
+            <div class="cards">
+                <div class="cards__base cards__base--small">
+                    <div class="cards__icon cards__icon--orange">
+                        <img src="./assets/Chart.png" />
+                    </div>
+                    <h3 class="cards__title">Grow your business</h3>
+                    <p class="cards__description"><b>The magic wand</b> for success is in figuring out how to bring in
+                        the
+                        profits and ensure the capacity needed to sustain that growth for posterity.</p>
+                </div>
+                <div class="cards__base cards__base--small">
+                    <div class="cards__icon cards__icon--green">
+                        <img src="./assets/Discount.png" />
+                    </div>
+                    <h3 class="cards__title">Drive more sales</h3>
+                    <p class="cards__description"> A potential customer, once lost, is hard to retain back. But
+                        <b>keeping some critical</b> factors in mind, we can, for sure, use these loyalty programs as
+                        customer retention tools.
+                    </p>
+                </div>
+                <div class="cards__base cards__base--small">
+                    <div class="cards__icon cards__icon--yellow">
+                        <img src="./assets/3 User.png" />
+                    </div>
+                    <h3 class="cards__title">Handle by Expert</h3>
+                    <p class="cards__description"> We know how we can develop deep, trust-based relationships with our
+                        clients, and work together more collaboratively</p>
+                </div>
+                <div class="cards__base cards__base--small">
+                    <div class="cards__icon cards__icon--mint">
+                        <img src="./assets/Search_mint.png" />
+                    </div>
+                    <h3 class="cards__title">UX Research</h3>
+                    <p class="cards__description">UX research is the systematic study of target users and their
+                        requirements, to add realistic contexts and insights to design processes.</p>
+                </div>
+                <div class="cards__base cards__base--small">
+                    <div class="cards__icon cards__icon--purple">
+                        <img src="./assets/Graph.png" />
+                    </div>
+                    <h3 class="cards__title">Business Audit</h3>
+                    <p class="cards__description">An audit examines your business's financial records to verify they
+                        are accurate. This is done through a systematic review of your transactions.</p>
+                </div>
+                <div class="cards__base cards__base--small">
+                    <div class="cards__icon cards__icon--blue">
+                        <img src="./assets/Bag.png" />
+                    </div>
+                    <h3 class="cards__title">Data tracking</h3>
+                    <p class="cards__description">The hardware and software, which when used together allows you to know
+                        where something is at any point in time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component component--process">
+        <h1 class="component__subtitle component__subtitle--process">how it works</h1>
+        <p class="component__title component__title--process">Our Process</p>
+        <p class="component__description component__description--process">We know the best solution for all of your
+            business ideas and we
+            can help you solve all business problems</p>
+        <div class="cards cards--process">
+            <div class="cards__base cards__base--large">
+                <img class="process-image" src="./assets/Results.png" />
+                <div class="cards__content">
+                    <div class="cards__icon cards__icon--lavender">
+                        <img class="background__image" src="./assets/Search.png" />
+                    </div>
+                    <div class="cards__title">Business Audit</div>
+                    <div class="cards__description cards__description--process">An audit examines your business's
+                        financial records to verify they
+                        are accurate. This is done through a systematic review of your transactions.</div>
+                </div>
+            </div>
+            <div class="cards__base cards__base--large">
+                <img class="process-image" src="./assets/Data_tracking.png" />
+                <div>
+                    <div class="cards__icon cards__icon--purple">
+                        <img class="background__image" src="./assets/Folder.png" />
+                    </div>
+                    <div class="cards__title">Data tracking</div>
+                    <div class="cards__description cards__description--process">The hardware and software, which when
+                        used together allows you to
+                        know where something is at any point in time</div>
+                </div>
+            </div>
+            <div class="cards__base cards__base--large">
+                <img class="process-image" src="./assets/Results.png" />
+                <div>
+                    <div class="cards__icon cards__icon--blue">
+                        <img class="background__image" src="./assets/Document.png" />
+                    </div class="text-content">
+                    <div class="cards__title">Results</div>
+                    <div class="cards__description cards__description--process">An audit examines your business's
+                        financial records to verify they
+                        are accurate. This is done through a systematic review of your transactions.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component component--brands">
+        <p class="component__subtitle component__subtitle--brands">brands</p>
+        <h1 class="component__title component__title--brands">We work with thousands of the world’s leading brands</h1>
+        <div class="brands">
+            <img class="brand__logo" src="./assets/Atlassian.png" />
+            <img class="brand__logo" src="./assets/TalentBin.png" />
+            <img class="brand__logo" src="./assets/PopSugar.png" />
+            <img class="brand__logo" src="./assets/BuySellAds.png" />
+            <img class="brand__logo" src="./assets/Civicrm.png" />
+            <img class="brand__logo" src="./assets/Cssmana.png" />
+            <img class="brand__logo" src="./assets/Mazda.png" />
+            <img class="brand__logo" src="./assets/nitro.png" />
+            <img class="brand__logo" src="./assets/Qantas.png" />
+            <img class="brand__logo" src="./assets/Smashing.png" />
+        </div>
+        <p class="component__description component__description--brands">You're going to be in good company. We work
+            with world's leading
+            brands.</p>
+    </div>
+    <div class="component component--start">
+        <div class="text-context">
+            <p class="component__subtitle component__subtitle--start">start with us</p>
+            <h1 class="component__title component__title--start">Start working faster today</h1>
+            <p class="component__description component__description--start">We know the best solution for all of your
+                business ideas
+                and
+                we can help you solve
+                all business problems</p>
+            <button class="button">Get started</button>
+        </div>
+        <img class="image-start" src="./assets/start.png" />
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer__top">
+                <div class="logo logo--footer">
+                    <img class="logo__image logo__image--footer" src="./assets//Logo_image.png" />
+                    <p class="logo__txt logo__txt--footer">company</p>
+                </div>
+                <div class="menu">
+                    <li class="menu__item">Home</li>
+                    <li class="menu__item">Your benefits</li>
+                    <li class="menu__item">Our process</li>
+                    <li class="menu__item">Our works</li>
+                    <li class="menu__item">Testimonials</li>
+                    <li class="menu__item">Start a project</li>
+                </div>
+                <div class="social-media">
+                    <img src="./assets/Facebook.png" />
+                    <img src="./assets/Instagram.png" />
+                    <img src="./assets/Twitter.png" />
+                </div>
+            </div>
+            <p class="footer__divider"></p>
+            <div class="footer__bottom">
+                <div class="footer__description">© 2021 Company</div>
+                <div class="footer__settings">
+                    <p class="footer__description">Privacy policy</p>
+                    <p class="footer__description">Term of service</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
 
 </html>
