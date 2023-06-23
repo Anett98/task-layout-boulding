@@ -1,0 +1,43 @@
+.footer {
+  background-color: #0d0d0d;
+  padding: 84px 15px 35px 15px;
+  display: flex;
+  justify-content: center;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__divider {
+    height: 1px;
+    opacity: 0.35;
+    border: none;
+    border-top: 1px solid #ffffff;
+    box-sizing: border-box;
+    margin-top: 39px;
+    padding-bottom: 28px;
+    max-width: 1200px;
+  }
+
+  &__description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__settings {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
