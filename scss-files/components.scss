@@ -1,0 +1,147 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-component-wrapper {
+    max-width: 1200px;
+  }
+
+  &--help {
+    background-image: url("../assets/what-you-need-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &--process {
+    background-image: url("../assets/Process_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &--brands {
+    padding-top: 184px;
+  }
+
+  &--start {
+    background-image: url("../assets/Start-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 151px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 132px;
+    padding-bottom: 134px;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 122%;
+    padding: 0px 10px 0px 10px;
+
+    &--hero {
+      padding-top: 56px;
+      font-weight: 500;
+      font-size: 68px;
+      color: white;
+      text-align: center;
+    }
+
+    &--help {
+      max-width: 528px;
+      padding-bottom: 32px;
+    }
+
+    &--process {
+      color: white;
+      text-align: center;
+    }
+
+    &--brands {
+      color: #3b3e43;
+      max-width: 897px;
+      text-align: center;
+      padding-top: 24px;
+      padding-bottom: 32px;
+    }
+
+    &--start {
+      color: white;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 122%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding: 0px 10px 0px 10px;
+
+    &--help {
+      color: #00a077;
+      padding-bottom: 24px;
+    }
+
+    &--process {
+      padding-top: 194px;
+      margin-bottom: 14px;
+      color: white;
+    }
+
+    &--brands {
+      color: #00a077;
+    }
+
+    &--start {
+      color: white;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    padding: 0px 10px 0px 10px;
+
+    &--hero {
+      padding-top: 8px;
+      padding-bottom: 41px;
+      color: white;
+      opacity: 0.8;
+      text-align: center;
+    }
+
+    &--process {
+      margin-top: 24px;
+      color: white;
+      max-width: 718px;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    &--brands {
+      padding-top: 40px;
+      color: #424a4d;
+      font-size: 16px;
+      max-width: 381px;
+      text-align: center;
+      margin-bottom: 184px;
+    }
+
+    &--start {
+      color: white;
+      margin-bottom: 30px;
+    }
+  }
+}
